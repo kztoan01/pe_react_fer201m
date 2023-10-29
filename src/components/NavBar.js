@@ -88,7 +88,6 @@ function NavBar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-
                             <Link to="/"> <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">Home</Typography>
                             </MenuItem> </Link>

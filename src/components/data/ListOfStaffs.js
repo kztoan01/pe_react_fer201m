@@ -1,5 +1,5 @@
 
-export const staffs = [
+ const staffs = [
     {
      "createdAt": "2023-06-17T22:22:29.497Z",
      "name": "Pamela Hane",
