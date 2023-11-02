@@ -13,6 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from "react-router-dom"
+import TextField from '@mui/material/TextField';
 //link thay cho the a cua hmtl
 const pages = ['Home', 'Dasboard', 'Contact'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -134,7 +135,7 @@ function NavBar() {
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
-                            Dasboard
+                            Dashboard
                         </Button></Link>
                         <Link to="/"><Button
                             onClick={handleCloseNavMenu}
@@ -144,7 +145,6 @@ function NavBar() {
                         </Button></Link>
 
                     </Box>
-
                     <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
